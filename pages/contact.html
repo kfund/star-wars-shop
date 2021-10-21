@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars - contact us</title>
+    <link rel="shortcut icon" type="image/png" href="../icon.png"/>
+    <link rel="stylesheet" href="../bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: #152733;">
+<nav class="navbar fixed-top bg-light">
+    <div class="container">
+      <div class="row w-100">
+        <div class="row-inner d-flex flex-row align-items-center justify-content-between w-100">
+          <a href="/test-shop/">
+            <h2 class="main-title"><i class="fas fa-jedi"></i><span>  </span><span>Star Wars shop</span></h2>
+          </a>
+          <div class="navbar-nav d-flex flex-row justify-content-between align-items-center" style="width: 50%;">
+            <a class="nav-link" aria-current="page" href="/test-shop/">Home</a>
+            <a class="nav-link" href="./features.html">Features</a>
+            <a class="nav-link" href="./about.html">About us</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+            <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-light open-cart cart d-flex align-items-center"> 
+              <i class="fas fa-shopping-cart"></i>  
+              <span class="badge rounded-pill bg-light text-dark total-count">Cart</span>
+          </span>
+          </div>
+          <div id="burger">
+            <div class="line one"></div>
+            <div class="line two"></div>
+            <div class="line three"></div>
+          </div>
+        </div>
+        <div class="mobile-menu d-flex flex-column" id="menu">
+          <a class="nav-link" aria-current="page" href="/test-shop/">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="./pages/about.html">About us</a>
+            <a class="nav-link" href="./pages/contact.html">Contact</a>
+            <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-light open-cart cart d-flex align-items-center"> 
+              <i class="fas fa-shopping-cart"></i>  
+              <span class="badge rounded-pill bg-light text-dark total-count">Cart</span>
+            </span>
+        </div>
+      </div>
+    </div>
+</nav>
+<main class="main">
+  <div class="container">
+    <div class="row product-area row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="form-holder">
+                    <div class="form-content">
+                        <div class="form-items">
+                            <h3>Register Today</h3>
+                            <p>Fill in the data below.</p>
+                            <form class="requires-validation" novalidate>
+    
+                                <div class="col-md-12">
+                                   <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                   <div class="valid-feedback">Username field is valid!</div>
+                                   <div class="invalid-feedback">Username field cannot be blank!</div>
+                                </div>
+    
+                                <div class="col-md-12">
+                                    <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                     <div class="valid-feedback">Email field is valid!</div>
+                                     <div class="invalid-feedback">Email field cannot be blank!</div>
+                                </div>
+    
+                               <div class="col-md-12">
+                                    <select class="form-select mt-3" required>
+                                          <option selected disabled value="">Position</option>
+                                          <option value="jweb">Darth Vader Developer</option>
+                                          <option value="sweb">Luke Skywalker Developer</option>
+                                          <option value="pmanager">Jar Jar Binks QA Enginer</option>
+                                   </select>
+                                    <div class="valid-feedback">You selected a position!</div>
+                                    <div class="invalid-feedback">Please select a position!</div>
+                               </div>
+    
+    
+                               <div class="col-md-12">
+                                  <input class="form-control" type="password" name="password" placeholder="Password" required>
+                                   <div class="valid-feedback">Password field is valid!</div>
+                                   <div class="invalid-feedback">Password field cannot be blank!</div>
+                               </div>
+    
+    
+                               <div class="col-md-12 mt-3">
+                                <label class="mb-3 mr-1" for="gender">Gender: </label>
+    
+                                <input type="radio" class="btn-check" name="male" id="male" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+    
+                                <input type="radio" class="btn-check" name="female" id="female" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+    
+                                <input type="radio" class="btn-check" name="secret" id="secret" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
+                                   <div class="valid-feedback mv-up">You selected a gender!</div>
+                                    <div class="invalid-feedback mv-up">Please select a gender!</div>
+                                </div>
+    
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                              <label class="form-check-label">I confirm that all data are correct</label>
+                             <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                            </div>
+                      
+    
+                                <div class="form-button mt-3">
+                                    <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+    </div>
+  </div>
+</main>
+<!-- Modal window here in code. LOOK AT ME! -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group">
+
+
+                  </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn shadow-none btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button class="clear-cart shadow-none btn btn-danger">Clear Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-success" role="alert">
+        
+      </div>
+      <div class="overlay"> </div>
+<script src="./bootstrap5/js/bootstrap.min.js"></script>
+<script src="./scripts.js"></script>
+<script src="../menu.js"></script>
+</body>
+</html>

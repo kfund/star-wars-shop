@@ -1,0 +1,44 @@
+﻿{
+  "arrayOfProducts": [
+    {
+      "imgUrl": "https://images.unsplash.com/photo-1586136194012-35ceaddbd773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "STORMTROOPER",
+      "price": 110
+    },
+    {
+      "imgUrl": "https://images.unsplash.com/photo-1599272814862-974880a19e4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "C3PO",
+      "price": 91
+    },
+    {
+      "imgUrl": "https://images.unsplash.com/photo-1617799890023-c7b03d079b1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "BABY YODA",
+      "price": 94.5
+    },
+    {
+      "imgUrl": "https://images.unsplash.com/photo-1585669060258-2dc6a3976d09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "LEGO MINIFIG",
+      "price": 48.9
+    },
+    {
+      "imgUrl": "https://images.unsplash.com/photo-1586136194012-35ceaddbd773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "STORMTROOPER",
+      "price": 110
+    },
+    {
+      "imgUrl": "https://images.unsplash.com/photo-1599272814862-974880a19e4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "C3PO",
+      "price": 91
+    },
+    {
+      "imgUrl": "https://images.unsplash.com/photo-1617799890023-c7b03d079b1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "BABY YODA",
+      "price": 94.5
+    },
+    {
+      "imgUrl": "https://images.unsplash.com/photo-1585669060258-2dc6a3976d09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "LEGO MINIFIG",
+      "price": 48.9
+    }
+  ]
+}
