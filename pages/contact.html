@@ -5,6 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Wars - contact us</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_W9f5QDUrcLpqnND1u4Uof');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_4j8eorg', 'template_ia31omu', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
     <link rel="shortcut icon" type="image/png" href="../icon.png"/>
     <link rel="stylesheet" href="../bootstrap5/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles.css">
@@ -40,9 +63,9 @@
         </div>
         <div class="mobile-menu d-flex flex-column" id="menu">
           <a class="nav-link" aria-current="page" href="/star-wars-shop/">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="./pages/about.html">About us</a>
-            <a class="nav-link" href="./pages/contact.html">Contact</a>
+            <a class="nav-link" href="./features.html">Features</a>
+            <a class="nav-link" href="./about.html">About us</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
             <span data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-light open-cart cart d-flex align-items-center"> 
               <i class="fas fa-shopping-cart"></i>  
               <span class="badge rounded-pill bg-light text-dark total-count">Cart</span>
@@ -59,16 +82,16 @@
                         <div class="form-items">
                             <h3>Register Today</h3>
                             <p>Fill in the data below.</p>
-                            <form class="requires-validation" novalidate>
-    
+                            <form class="requires-validation" id="contact-form" novalidate>
+                              <input type="hidden" name="contact_number">
                                 <div class="col-md-12">
-                                   <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                   <input class="form-control" type="text" name="user_name" placeholder="Full Name" required>
                                    <div class="valid-feedback">Username field is valid!</div>
                                    <div class="invalid-feedback">Username field cannot be blank!</div>
                                 </div>
     
                                 <div class="col-md-12">
-                                    <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                    <input class="form-control" type="email" name="user_email" placeholder="E-mail Address" required>
                                      <div class="valid-feedback">Email field is valid!</div>
                                      <div class="invalid-feedback">Email field cannot be blank!</div>
                                 </div>
@@ -86,7 +109,7 @@
     
     
                                <div class="col-md-12">
-                                  <input class="form-control" type="password" name="password" placeholder="Password" required>
+                                  <input class="form-control" type="password" name="user_password" placeholder="Password" required>
                                    <div class="valid-feedback">Password field is valid!</div>
                                    <div class="invalid-feedback">Password field cannot be blank!</div>
                                </div>
@@ -115,7 +138,7 @@
                       
     
                                 <div class="form-button mt-3">
-                                    <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                                    <input id="submit" class="btn btn-primary" type="submit" value="REGISTER">
                                 </div>
                             </form>
                         </div>
@@ -149,8 +172,7 @@
         
       </div>
       <div class="overlay"> </div>
-<script src="./bootstrap5/js/bootstrap.min.js"></script>
-<script src="./scripts.js"></script>
-<script src="../menu.js"></script>
+<script src="../bootstrap5/js/bootstrap.min.js"></script>
+<script src="../scripts.js"></script>
 </body>
 </html>
