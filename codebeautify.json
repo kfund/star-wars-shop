@@ -21,24 +21,24 @@
       "price": 48.9
     },
     {
-      "imgUrl": "https://images.unsplash.com/photo-1586136194012-35ceaddbd773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-      "name": "STORMTROOPER",
-      "price": 110
+      "imgUrl": "https://images.unsplash.com/photo-1624467906831-1f80d34ed5ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80",
+      "name": "LEGO ANAKIN",
+      "price": 105
     },
     {
-      "imgUrl": "https://images.unsplash.com/photo-1599272814862-974880a19e4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-      "name": "C3PO",
-      "price": 91
+      "imgUrl": "https://images.unsplash.com/photo-1634129003118-37a254f894bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "DARK HELMET",
+      "price": 191
     },
     {
-      "imgUrl": "https://images.unsplash.com/photo-1617799890023-c7b03d079b1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-      "name": "BABY YODA",
-      "price": 94.5
+      "imgUrl": "https://images.unsplash.com/photo-1609283040241-7a50dc4288bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "LEGO SHIP",
+      "price": 212
     },
     {
-      "imgUrl": "https://images.unsplash.com/photo-1585669060258-2dc6a3976d09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-      "name": "LEGO MINIFIG",
-      "price": 48.9
+      "imgUrl": "https://images.unsplash.com/photo-1578374173705-969cbe6f2d6b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      "name": "FALCON ENGINE",
+      "price": 999
     }
   ]
 }
